@@ -94,7 +94,7 @@ function HomeView({ onSelect }: { onSelect: (view: 'gufeng' | 'pop') => void }) 
           >
             <Wind className="w-6 h-6 md:w-8 md:h-8 text-[#c3272b]/80 mb-4 md:mb-6" />
             <h2 className="font-serif text-4xl md:text-7xl font-medium text-[#e8e4dc] tracking-[0.2em] mb-2 md:mb-4 writing-vertical-rl md:writing-horizontal-tb">
-              风古
+              古风
             </h2>
             <p className="font-serif text-sm md:text-base text-[#a39b8f] tracking-[0.5em] uppercase">
               Traditional
