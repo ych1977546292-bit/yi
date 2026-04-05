@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronLeft, Wind, Radio, Sparkles } from 'lucide-react';
 
-const avatarUrl = "/logo.png"; // Placeholder for the uploaded logo
+const avatarUrl = "/logo.png.jpg"; // Placeholder for the uploaded logo
 
 const gufengSongs = {
   '2': Array.from(new Set(['落', '紫', '藏', '鱼', '劫', '初听', '芊芊', '断钗', '招摇', '月出', '悦神', '千年', '狐言', '惊鹊', '步戏', '红尘', '山鬼', '墓夏', '清音', '伶人', '怎叹', '青丝', '赤伶', '剑伤', '风月', '青衣', '春颂', '不染', '昔言', '年轮', '汝南', '琴师', '摧雪', '参商', '如歌', '栖凰', '对弈', '夜奔', '出仙', '相思', '万载', '剑魂', '祖籁', '标题', '哪吒', '空待', '识君', '伴我', '归潮', '观鹤', '酒家', '离骚', '春涧', '夜探', '不凡', '不悔', '与归', '娱神', '忘川', '隔世', '愿我', '繁花', '借月', '问情', '入画', '飞天', '逃禅', '无归', '与妆', '山僧', '囍', '至尊', '念破'])),
