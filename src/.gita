@@ -1,0 +1,9 @@
+# 图片等二进制文件禁止换行符转换，否则提交后文件损坏，GitHub 预览会像乱码
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
